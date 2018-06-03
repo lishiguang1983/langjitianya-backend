@@ -20,4 +20,11 @@ public class ItemViewController {
     public String index(){
       return "index";
     }
+
+    @GetMapping("/item-list")
+    public String goItemList(){
+        return "item-list";
+    }
+
+
 }
