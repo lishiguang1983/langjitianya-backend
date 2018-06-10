@@ -25,6 +25,7 @@
 		<spring-cloud.version>Edgware.SR3</spring-cloud.version>
 		<swagger.version>2.2.2</swagger.version>
 		<langjitianya-common.version>1.0.0-SNAPSHOT</langjitianya-common.version>
+		<langjitianya-itemservice.version>1.0.0-SNAPSHOT</langjitianya-itemservice.version>
 	</properties>
 
 	<dependencies>
@@ -68,6 +69,11 @@
 			<groupId>com.niepengfei.langjitianya</groupId>
 			<artifactId>langjitianya-common</artifactId>
 			<version>${langjitianya-common.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.niepengfei.langjitianya</groupId>
+			<artifactId>langjitianya-itemservice-share-api</artifactId>
+			<version>${langjitianya-itemservice.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
