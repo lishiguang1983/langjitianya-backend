@@ -6,7 +6,7 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 /**
  * @author Jack
  */
-@FeignClient(name= "langjitianya-itemservice")
+@FeignClient(value= "langjitianya-itemservice")
 public interface ItemRemoteService extends ItemShareService {
 
 
